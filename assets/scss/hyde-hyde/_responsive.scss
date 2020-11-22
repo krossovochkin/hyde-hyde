@@ -45,11 +45,11 @@
     text-decoration: none;
     cursor: pointer; }
   .collapsible-menu label {
-    background: url(/img/menu-open.svg) no-repeat left center;
+    background: url(/img/menu-open-dark.svg) no-repeat left center;
     background-position: 1.5rem;
     display: block;
     cursor: pointer;
-    color: #fff;
+    color: $link-color;
     padding: 10px 0 10px 0px; }
 
   input#menuToggle {
@@ -60,9 +60,9 @@
   }
 
   input#menuToggle:checked + label {
-    background-image: url(/img/menu-close.svg);
+    background-image: url(/img/menu-close-dark.svg);
     background-position: 1.5rem;
-    color: #fff;
+    color: $link-color;
   }
 
   input#menuToggle:checked ~ .menu-content {

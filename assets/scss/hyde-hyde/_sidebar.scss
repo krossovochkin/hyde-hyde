@@ -5,7 +5,7 @@
   padding: 2rem 1rem;
   text-align: center;
   a {
-    color: $gray-1;
+    color: $link-color;
     border: none;
     &:hover {
       color: $link-color;
@@ -40,6 +40,7 @@
 }
 .site__title {
   font-size: $site__title-font-size;
+  font-weight: 600;
   margin-bottom: 0.5rem;
   a:hover {
     border: none;
@@ -79,6 +80,7 @@
 }
 
 .copyright {
+  color: $link-color;
   padding-top: 1rem;
 	@extend %small-center-text;
 }

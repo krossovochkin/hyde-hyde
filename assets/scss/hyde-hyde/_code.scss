@@ -32,7 +32,7 @@ pre {
 
 %code-style-npf {
 	padding: .1em .1em;
-	color: #ab5979;
+	color: $yellow;
 	border-radius: 3px;
 }
 
@@ -53,6 +53,6 @@ code {
 	font-size: $code-fence-font-size;
 	line-height: $root-line-height;
 	white-space: pre;
-	border: 1px solid $gray-3;
-	border-radius: 4px;
+	// border: 1px solid $gray-3;
+	// border-radius: 4px;
 }

@@ -67,8 +67,9 @@ figure {
 }
 
 blockquote {
-	background-color: #fafafa;
-	border-left-color: #e6e6e6;
+	color: $gray-0;
+	background-color: $body-bg;
+	border-left-color: $yellow;
 	@extend %quotebox;
 }
 
